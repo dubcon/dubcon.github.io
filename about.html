@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link rel = "stylesheet" type="text/css" href ="style.css">
+</head>
+<body>
+  <nav id="navbar">
+    <a href="how.html" class="active">How it works</a>
+    <a href="about.html">About us</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="Contact.html">Contact</a>
+    <a href="order.html" class = "active">Order now</a>
+  </nav>
+<div class ="imgContainer">
+  <img src="bakery.jpg" alt="">
+</div>
+
+<h1 class="header">BACKGROUND</h1>
+
+<p>Childhood friends Conor, Rob & Colin spent their days creating and medling soon took there had to baking. After finding they both enjoyed and were good at it (thanks to the many compliements at local cake sales) they soon leased a small, cosy bakery in South County Dublin. Within weeks the bakery received notice having mentions from the Irish times and The Mail on Sunday</p>
+</body><br>
+<p>Like so many, business was disrupted in March 2020 due to the Cornavirus outbreak. Quick to protect staff, the bakery closed after only a few short months of operating. Messages of support and baking requests quickly flowed through social media channels and an idea was born</p>
+<h2 class="header">CookieBox</h2>
+<p>While you can't come for the goods. The goods can come to you and thus we have developed an online platform to order freshly baked cookies on-demand! The first in Ireland. As the country to get through this difficult time, we thought the least we could do was spread some cookie love</p>
+
+<script>
+  // preload images
+  $(window).scroll(function() {
+    var images = new Array();
+  
+  function preloadImages(){
+  
+      for (i=0; i < preloadImages.arguments.length; i++){
+  
+           images[i] = new Image();
+  
+          images[i].src = preloadImages.arguments[i];
+  
+      }
+  
+  }
+  
+  preloadImages("bakery.jpg");
+  </script>
+  
+</body>
+</html>

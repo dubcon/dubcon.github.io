@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel = "stylesheet" type="text/css" href ="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="how.html" class="active">How it works</a>
+    <a href="about.html">About us</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="Contact.html">Contact</a>
+    <a href="order.html" class = "active">Order now</a>
+  </nav>
+  
+  <main>
+    <h1>CookieBox</h1>
+    <h2>Cookies delivered to you or Someone you love ❤️</h2>
+    <button onclick="window.location.href= 'order.html';">Order Now</button>
+
+
+  
+  </main>
+
+  <script>
+    
+    // preload images
+    $(window).scroll(function() {
+      var images = new Array();
+    
+    function preloadImages(){
+    
+        for (i=0; i < preloadImages.arguments.length; i++){
+    
+             images[i] = new Image();
+    
+            images[i].src = preloadImages.arguments[i];
+    
+        }
+    
+    }
+    
+    preloadImages("cookies.jpg");
+  
+
+    </script>
+  
+</body>
+</html>

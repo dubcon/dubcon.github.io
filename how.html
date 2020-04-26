@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Order</title>
+  <link rel = "stylesheet" type="text/css" href ="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="how.html" class="active">How it works</a>
+    <a href="about.html">About us</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="Contact.html">Contact</a>
+    <a href="order.html" class = "active">Order now</a>
+  </nav>
+
+  <h1 class ="header">
+    Simple
+  </h1>
+  <div class = "how-container">
+    <div class="box box-1">
+      <img src="girl.png" alt="">
+      <h3>You want to send some cookie love</h3>
+    </div>
+    <div class="box box-2">
+      <img src="laptop.png" alt="">
+      <h3>Place a hassle free order online</h3>
+    </div>
+    <div class="box box-3">
+      <img src="delivery.png" alt="">
+      <h3>Your freshly baked goods will be quickly delivered</h3>
+      <h3>*contactlessly of course</h3>
+    </div>
+  </div>
+
+<h1 class ="header">The Cookies</h1>
+
+<div class = "cookiesContainer">
+<div class="box2 box-4">
+  <h2>Each box contains 6 delicius cookies</h2>
+  <ul>
+  <li>2 x Chocolate Chip</li>
+  <li>2 x Smarties </li>
+  <li>2 x white Chocolate</li>
+  </ul>
+</div> 
+  <div class="box2 box-5"><img src="cookieClose.jpg" alt=""></div>
+  <div class="box2 box-6"><img src="Fresh.jpg" alt=""></div>
+  <div class="box2 box-7"><h2>Feshly baked and arriving hot</h2> <h2>We use the highest quality ingredients sourced locally</h2></div>
+  <div class="box2 box-8"><h2>We cater to all requirements </h2>
+  <h2>Vegan options available </h2>
+  </div>
+  <div class="box2 box-9"><img src="all1.jpg" alt=""></div>  
+</div>
+
+<script>
+  // preload images
+  $(window).scroll(function() { 
+    var images = new Array();
+  
+  function preloadImages(){
+  
+      for (i=0; i < preloadImages.arguments.length; i++){
+  
+           images[i] = new Image();
+  
+          images[i].src = preloadImages.arguments[i];
+  
+      }
+  
+  }
+  
+  preloadImages("cookieClose.jpg", "Fresh.jpg", "all1.jpg");
+  </script>
+  
+</body>
+</html>
